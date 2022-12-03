@@ -1,0 +1,17 @@
+@import "/styles/header.css";
+
+:root {
+  --branco: #ffffff;
+  --cor-de-texto-primaria: #101828;
+  --cor-de-texto-secundaria: #667085;
+  --vermelho: #8e2424;
+  --fonte-principal: "Inter";
+}
+
+body {
+  background-color: var(--branco);
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
