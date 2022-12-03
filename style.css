@@ -1,5 +1,6 @@
 @import "/styles/header.css";
 @import "/styles/sobrenos.css";
+@import "/styles/metricas.css";
 
 :root {
   --branco: #ffffff;

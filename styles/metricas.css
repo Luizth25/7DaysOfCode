@@ -1,0 +1,33 @@
+.metricasContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 32px;
+  padding: 96px 80px;
+}
+
+.metricas {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.metricas span {
+  font-weight: 600;
+  font-size: 60px;
+  color: var(--vermelho);
+  line-height: 72px;
+}
+
+.metricas h2 {
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--cor-de-texto-primaria);
+  line-height: 28px;
+}
+
+.metricas p {
+  color: var(--cor-de-texto-secundaria);
+  line-height: 24px;
+}
