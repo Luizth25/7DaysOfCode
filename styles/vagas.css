@@ -1,0 +1,29 @@
+.vagasAbertasContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 96px;
+  gap: 20px;
+}
+
+.vagasAbertasContainer span {
+  color: var(--vermelho);
+  background-color: rgba(142, 36, 36, 0.05);
+  border-radius: 16px;
+  padding: 4px 12px;
+}
+
+.vagasAbertasContainer h2 {
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.vagasAbertasContainer p {
+  font-size: 20px;
+  color: var(--cor-de-texto-secundaria);
+}
+
+.vagasAbertasContainer div {
+  padding: 64px;
+}
