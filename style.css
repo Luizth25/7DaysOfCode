@@ -3,6 +3,7 @@
 @import "/styles/metricas.css";
 @import "/styles/vagas.css";
 @import "/styles/depoimento.css";
+@import "/styles/footer.css";
 
 :root {
   --branco: #ffffff;
