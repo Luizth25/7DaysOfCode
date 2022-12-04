@@ -1,0 +1,49 @@
+.rodape {
+  display: flex;
+  flex-direction: column;
+  background-color: #F9FAFB;
+  padding: 96px;
+  gap: 20px;
+  align-items: center;
+}
+
+.rodape h2 {
+  font-weight: 600;
+  font-size: 36px;
+  color: var(--cor-de-texto-primaria);
+}
+
+.rodapeFrase {
+  font-size: 20px;
+  color: var(--cor-de-texto-secundaria);
+}
+
+.rodape div {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.rodape input {
+  border-radius: 8px;
+  padding: 12px 14px 12px 16px;
+  border: 1px solid var(--cor-da-borda);
+  width: 360px;
+  height: 48px;
+}
+
+.rodape button {
+  width: 112px;
+  height: 44px;
+  background: var(--vermelho);
+  color: var(--branco);
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.direitosAutorais {
+  font-size: 14px;
+  color: #98A2B3;
+  margin-top: 32px;
+}
