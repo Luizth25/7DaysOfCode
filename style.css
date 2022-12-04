@@ -2,6 +2,7 @@
 @import "/styles/sobrenos.css";
 @import "/styles/metricas.css";
 @import "/styles/vagas.css";
+@import "/styles/depoimento.css";
 
 :root {
   --branco: #ffffff;
