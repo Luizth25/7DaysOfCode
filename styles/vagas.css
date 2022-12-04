@@ -1,0 +1,68 @@
+.vagasAbertasContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 96px;
+  gap: 20px;
+}
+
+.vagasAbertasTitulo {
+  color: var(--vermelho);
+  background-color: rgba(142, 36, 36, 0.05);
+  border-radius: 16px;
+  padding: 4px 12px;
+}
+
+.vagasAbertasContainer h2 {
+  font-weight: 600;
+  font-size: 36px;
+}
+
+.vagasAbertasContainer p {
+  font-size: 20px;
+  color: var(--cor-de-texto-secundaria);
+}
+
+.containerImagem {
+  padding: 64px 0;
+}
+
+.vagasContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 32px;
+  width: 50%;
+  gap: 32px;
+}
+
+.vagasInformacoes {
+  display: flex;
+  gap: 24px;
+}
+
+
+.vagas {
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 24px 28px 24px;
+  border: 1px solid var(--cor-da-borda);
+  border-radius: 16px;
+}
+
+.vagasSetor {
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--cor-de-texto-primaria);
+}
+
+.vagasInformacoes p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.vagasTitulo {
+  font-size: 18px;
+  font-weight: 500;
+}

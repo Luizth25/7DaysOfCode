@@ -1,0 +1,27 @@
+.cabecalhoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding: 96px 0;
+}
+
+.cabecalhoNome {
+  color: var(--vermelho);
+  font-weight: 600;
+}
+
+.cabecalhoTitulo {
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--cor-de-texto-primaria);
+}
+
+.cabecalhoTexto {
+  width: 791px;
+  height: 60px;
+  text-align: center;
+  font-size: 20px;
+  color: var(--cor-de-texto-secundaria);
+}

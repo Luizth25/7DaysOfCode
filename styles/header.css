@@ -1,0 +1,50 @@
+.containerNavegacao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 80px;
+}
+
+.containerLinkNavegacao {
+  display: flex;
+  gap: 32px;
+}
+
+.linkNavegacao {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--cor-de-texto-secundaria);
+}
+
+.containerNavBotao {
+  display: flex;
+  gap: 12px;
+}
+
+.botaoEntrar,
+.botaoCadastrar {
+  text-decoration: none;
+  padding: 10px 18px;
+  font-weight: 500;
+  border-radius: 8px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.botaoEntrar {
+  width: 83px;
+  height: 44px;
+  border: none;
+  background-color: transparent;
+  color: var(--cor-de-texto-secundaria);
+  cursor: pointer;
+}
+
+.botaoCadastrar {
+  width: 112px;
+  height: 44px;
+  background: var(--vermelho);
+  color: var(--branco);
+  border: none;
+  cursor: pointer;
+}
