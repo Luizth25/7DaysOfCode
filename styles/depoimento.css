@@ -1,0 +1,48 @@
+.depoimentoContainer {
+  display: flex;
+  justify-content: center;
+  padding: 96px;
+}
+
+.depoimento {
+  background-color: rgba(196, 25, 25, 0.03);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px;
+  text-align: center;
+  gap: 16px;
+}
+
+.depoimento span {
+  color: var(--vermelho);
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.depoimento h2 {
+  font-weight: 500;
+  font-size: 36px;
+  color: var(--cor-de-texto-primaria);
+}
+
+.informacoesUsuario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.informacoesUsuario img {
+  margin-bottom: 16px;
+}
+
+.informacoesUsuario h3 {
+  color: var(--cor-de-texto-peimaria);
+  font-weight: 500;
+}
+
+.informacoesUsuario p {
+  font-size: 14px;
+  color: var(--cor-de-texto-secundaria);
+}
